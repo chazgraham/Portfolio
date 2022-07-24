@@ -1,7 +1,7 @@
 :root {
     --primary-color: rgba(255,255,222) ;
     --secondary-color: #024e76;
-    --tertiary-color:  rgb(0, 174, 255); 
+    --tertiary-color:  rgba(0,0,0); 
 }
 
 * {
@@ -15,6 +15,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Header style */
 header {
     display: flex;
     padding: 20px 35px;
@@ -71,3 +72,76 @@ header nav ul li a:hover {
     border-radius: 10px;
     text-shadow: none;
 }
+/* End Header style */
+
+section {
+    padding: 30px;
+}
+
+/* Hero style*/
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    background-image: url(/assets/images/hero-img.jpg);
+    background-size: cover;
+    height: 200px;
+    background-position: center;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+.hero h2 {
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--primary-color);
+    font-size: 45px;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 1.5);
+    padding: 80px;
+    font-weight: bold;
+}
+/* Hero style End */
+
+/* About me section */
+.history {
+    float: left;
+    width: 60;
+    height: 100;
+    top: 90px;
+    left: 0;
+    background-color: var(--secondary-color);
+    border: 10px solid var(--tertiary-color);
+}
+
+.history p {
+    width: 300px;
+}
+
+.portrait img {
+    border: 5px solid var(--tertiary-color);
+}
+/* About me section end */
+
+.work-title h2 {
+    font-size: 48px;
+    color: var(--secondary-color);
+    border-bottom: 3px solid;
+    padding:0 20px 20px 0;
+    text-align: center;
+    margin-bottom: 35px;
+    width: 40%;
+    
+    
+    
+}
+
+.projects-1 {
+    float:right;
+    margin: 100px 50px 0 0;
+}
+
+.flex-row {
+    display: flex;
+}
+
