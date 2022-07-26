@@ -288,10 +288,6 @@ footer ul li a:hover {
         text-align: center;
     }
 
-    .history img {
-        width: 100%;
-    }
-
     .history p {
         width: fit-content;
     }
@@ -310,5 +306,21 @@ footer ul li a:hover {
 
     .project img {
         width: 100%;
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    .project img {
+        height: auto;
+    }
+    
+} 
+
+/* MEADIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    .history img {
+        width: 100%;
+        height: auto;
     }
 }
