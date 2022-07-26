@@ -1,6 +1,6 @@
 # Portfolio for Chaz Graham
 
-## Porpose
+## Purpose
 A website that shows skills applied to deployed appications.
 
 ## Built With
