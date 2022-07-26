@@ -288,11 +288,19 @@ footer ul li a:hover {
     .section-title {
         width: 100%;
     }
+}
 
-    .projects img {
+@media screen and (max-width: 768px) {
+    .project  {
         width: 100%;
+        background-image: none;
+        border: none;
     }
 
-}   
-
+    .project h3, .projects p {
+        background-image: url(/assets/images/hero-img.jpg);
+        margin: 0 200px 0 200px;
+        
+    }
+}
 
